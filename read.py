@@ -2,7 +2,7 @@ from nltk.tokenize import sent_tokenize
 import random
 
 def get_tweet():
-    file = '/Users/ck/Documents/programming/projects/twitter_bot/life.txt'
+    file = 'life.txt'
 
     with open(file) as f:
         text = f.readlines()[79:3149]
